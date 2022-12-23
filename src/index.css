@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 a {
@@ -26,42 +26,23 @@ body {
   color: white;
 }
 
-.menu-list,
-.menu-bar {
-  display: none;
-}
-
-.full-nav {
+nav {
   width: 100vw;
-  display: grid;
+  display: flex;
+  padding: 0.3rem 5vw;
+  justify-content: space-between;
   z-index: 999;
-  grid-template-columns: 1fr 1.8fr;
-  height: 3rem;
   line-height: 3rem;
-  position: sticky;
-  top: 0;
+  position: fixed;
 }
 
 .logo {
   font-size: 2rem;
-  padding: 0.2rem 15%;
+  padding: 0.2rem 5vw;
 }
 
-.full-nav ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 5vw;
-  justify-content: space-between;
-  list-style: none;
-  font-size: 1.3rem;
-}
-
-.full-nav ul li a {
-  width: 100%;
-  padding: 0.8rem 1.8vw;
-}
-
-.full-nav ul li a:hover {
-  color: green;
+.nav-btn{
+  font-size: 3rem;
 }
 
 #home {
@@ -72,7 +53,7 @@ body {
 .main {
   display: grid;
   grid-template-columns: 4fr 1.5fr;
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 .home-1 {
@@ -556,7 +537,7 @@ footer p {
 }
 
 @media screen and (max-width: 760px) {
-  .menu-bar,
+  .nav-btn,
   .menu-remove-bar {
     display: block;
     width: fit-content;
@@ -565,7 +546,7 @@ footer p {
     right: 2rem;
     top: 0.6rem;
   }
-  .menu-bar > i,
+  .nav-btn > i,
   .menu-remove-bar > i {
     font-size: 2rem;
   }
