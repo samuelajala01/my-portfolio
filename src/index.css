@@ -27,13 +27,36 @@ body {
 
 nav {
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
   display: flex;
   padding: 0.3rem 2vw;
   justify-content: space-between;
   z-index: 999;
+  background-color: black;
   line-height: 3rem;
+}
+
+.nav_container{
+  z-index: 999;
+  position: fixed;
+  padding: 1rem;
+  display: block;
+  text-align: center;
+  height: 100vh;
+  background-color: black;
+  width: 100%;
+}
+
+.nav_list_container{
+  list-style-type: none;
+}
+
+.nav_list_container li{
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid green;
 }
 
 .logo {
