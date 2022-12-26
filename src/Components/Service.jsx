@@ -3,9 +3,7 @@ const Service = (props) => {
     <div class="service">
       <img className="cover-img" src={props.src} alt="" />
       <h4>{props.title}</h4>
-      <button>
-        <a href="#contact">Hire Me</a>
-      </button>
+      <p className="service_text">{props.children}</p>
     </div>
   );
 };
