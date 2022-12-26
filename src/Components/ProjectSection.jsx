@@ -4,7 +4,6 @@ import loancalc from "../assets/Images/weather-app.png";
 import todolist from "../assets/Images/todo-list-app.png";
 import stt from "../assets/Images/speech-to-text.png";
 import indecision from "../assets/Images/indecision app.png";
-import shopbeta from "../assets/Images/shopping-app.png";
 
 const ProjectsSection = () => {
   return (

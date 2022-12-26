@@ -2,11 +2,11 @@ import webdev from "../assets/Images/website.png";
 import apidev from "../assets/Images/debug.png";
 import Service from "./Service";
 
-const Services = () => {
+const ServicesSection = () => {
   return (
     <section id="services">
       <h2>My services🚀</h2>
-      <div class="services-container">
+      <div className="services-container">
         <Service title="web development" src={webdev}>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
           rerum aperiam voluptatem cum dolorum odit sit. Sit, aspernatur.
@@ -30,4 +30,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServicesSection;
