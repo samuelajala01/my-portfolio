@@ -1,6 +1,6 @@
 const Project = (props) => {
   return (
-    <div className="project">
+    <div className="project" data-aos={props.aos}>
       <div className="img-div">
         <img src={props.img_src} className="project-img" alt={props.img_alt} />
       </div>

@@ -6,8 +6,12 @@ import ContactPage from "./Pages/ContactPage";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
 
 function App() {
+  AOS.init();
   return (
     <Router>
       <NavBar />

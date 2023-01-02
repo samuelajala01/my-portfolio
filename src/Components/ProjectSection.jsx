@@ -18,6 +18,7 @@ const ProjectsSection = () => {
           img_alt="Hero section Image of metabnb landing page clone"
           live_link="https://metabnb-clone.netlify.app"
           code_link="https://github.com/metabnb-clone"
+          aos="fade-right"
         />
         <Project
           title="Hudle clone"
@@ -26,6 +27,7 @@ const ProjectsSection = () => {
           description=" A clone of the hudle landing page built as an internship task."
           live_link="https://samuelajala01.github.io/zuri_huddle_page/"
           code_link="https://github.com/samuelajala01/zuri_huddle_page"
+          aos="fade-left"
         />
         <Project
           title="Weather App"
@@ -35,6 +37,7 @@ const ProjectsSection = () => {
           img_src={weatherapp}
           live_link="https://xamy-weather-app.netlify.app/"
           code_link="https://github.com/samuelajala01/my-weather-app"
+          aos="fade-right"
         />
         <Project
           title="LoanCalc"
@@ -43,6 +46,7 @@ const ProjectsSection = () => {
               depending on your time frame."
           live_link="https://loan-calculator01.netlify.app/"
           code_link="https://github.com/samuelajala01/loango"
+          aos="fade-left"
         />
         <Project
           title="TodoListApp"
@@ -51,6 +55,7 @@ const ProjectsSection = () => {
           img_alt=" A picture showing Samuel Ajala's todo list app"
           live_link="https://xamy-js-todo.netlify.app/"
           code_link="https://github.com/samuelajala01/JS-Todo-app"
+          aos="fade-right"
         />
         <Project
           title="Indecision"
@@ -59,6 +64,7 @@ const ProjectsSection = () => {
           img_alt="an image showing the indecision app."
           live_link="https://indecision01.netlify.app/"
           code_link="https://github.com/samuelajala01/indecision-app"
+          aos="fade-left"
         />
       </div>
     </section>
