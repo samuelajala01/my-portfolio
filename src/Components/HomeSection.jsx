@@ -19,7 +19,7 @@ const HomeSection = () => {
               <a href="https://linkedin.com/in/samuelajala01/">
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="https://instagram.com/xamy.dev">
+              <a href="https://instagram.com/cy63rx">
                 <i className="fab fa-instagram"></i>
               </a>
               <a href="https://twitter.com/samuelajala01/">
