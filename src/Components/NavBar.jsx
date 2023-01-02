@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import satlogo from "../assets/Images/SAT.png";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,10 +8,12 @@ const NavBar = () => {
   return (
     <>
       <nav>
-        <span className="logo">SAT</span>
-        <span className="nav-btn" onClick={() => setIsOpen(!isOpen)}>
-          E
-        </span>
+        {/* <span className="logo"> */}
+        <img src={satlogo} className="logo" height="80" /> {/* </span> */}
+        <i
+          className="fas fa-bars nav-btn"
+          onClick={() => setIsOpen(!isOpen)}
+        ></i>
       </nav>
       {isOpen && (
         <div className="nav_container">

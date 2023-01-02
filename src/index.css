@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 a {
@@ -30,11 +30,14 @@ nav {
   position: sticky;
   top: 0;
   display: flex;
-  padding: 0.3rem 2vw;
+  padding: 0.1rem 2.6vw;
   justify-content: space-between;
   z-index: 999;
   background-color: black;
   line-height: 3rem;
+  transition-delay: 2s;
+  transition-duration: 2s;
+  transition: all;
 }
 
 .nav_container{
@@ -59,24 +62,21 @@ nav {
   border-bottom: 1px solid green;
 }
 
-.logo {
-  font-size: 2rem;
-  padding: 0.2rem 5vw;
-}
-
 .nav-btn{
   font-size: 3rem;
+  height: fit-content;
+  margin: auto 0;
 }
 
 #home {
-  height: fit-content;
   min-height: 100vh;
+  
 }
 
 .main {
   display: grid;
   grid-template-columns: 4fr 1.5fr;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .home-1 {
@@ -84,7 +84,6 @@ nav {
   height: fit-content;
   position: relative;
   left: 5vw;
-  top: 1.5rem;
 }
 
 .home-1 h1 {
@@ -462,7 +461,7 @@ textarea:valid ~ label {
 
 .other-div {
   flex: 1;
-  background: url("../images/contact-bg.jpg");
+  background: url("../src/assets/Images/contact-bg.jpg");
   background-size: cover;
   border-radius: 3em;
 }
