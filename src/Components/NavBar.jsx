@@ -8,7 +8,6 @@ const NavBar = () => {
   return (
     <>
       <nav>
-        {/* <span className="logo"> */}
         <img src={satlogo} className="logo" height="80" /> {/* </span> */}
         {!isOpen ? (
           <i

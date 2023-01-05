@@ -2,6 +2,7 @@ import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import ProjectsPage from "./Pages/ProjectsPage";
 import ContactPage from "./Pages/ContactPage";
+import ServicesPage from "./Pages/ServicesPage";
 
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import NavBar from "./Components/NavBar";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/services" element={<ServicesPage />} />
       </Routes>
     </Router>
   );
