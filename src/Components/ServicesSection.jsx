@@ -5,7 +5,7 @@ import Service from "./Service";
 const ServicesSection = () => {
   return (
     <section id="services">
-      <h2>My services🚀</h2>
+      <h2>My Services🚀</h2>
       <div className="services-container">
         <Service title="Landing Page" src={webdev}>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
