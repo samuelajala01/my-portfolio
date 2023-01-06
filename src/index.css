@@ -315,7 +315,7 @@ h1 span {
   margin: auto;
   justify-content: space-between;
   padding: 2rem;
-  column-gap: 3vw;
+  gap: 3vw;
   justify-content: center;
 }
 
