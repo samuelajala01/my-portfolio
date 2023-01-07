@@ -8,9 +8,9 @@ const Project = (props) => {
         <p className="project-title">{props.title}</p>
         <p className="project-text">{props.description}</p>
         <br />
-        <div className="tech-div">
+        {/* <div className="tech-div">
           <ul className="list-inline">{props.children}</ul>
-        </div>
+        </div> */}
         <div className="btn-div">
           <button className="btn-1">
             <a href={props.live_link}>Live</a>

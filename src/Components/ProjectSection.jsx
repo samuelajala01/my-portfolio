@@ -5,6 +5,7 @@ import todolist from "../assets/Images/todo-list-app.png";
 import indecision from "../assets/Images/indecision app.png";
 import metabnb from "../assets/Images/metabnb_clone_site.png";
 import hudleclone from "../assets/Images/hudle_clone_site.png";
+import { Link } from "react-router-dom";
 
 const ProjectsSection = () => {
   return (
@@ -81,6 +82,12 @@ const ProjectsSection = () => {
           <li>React</li>
           <li>CSS</li>
         </Project>
+      </div>
+      <div className="more_projects_container">
+        <Link to="/projects">
+          {" "}
+          <button className="more-projects-btn">More Projects</button>
+        </Link>
       </div>
     </section>
   );
