@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 a {
@@ -266,8 +266,8 @@ h1 span {
   display: flex;
   list-style: none;
   margin: auto;
-  width: 16rem;
-  justify-content: space-between;
+  /* width: 16rem; */
+  justify-content: space-around;
   margin-top: 1rem;
   padding-right: 5px;
   margin-bottom: 2rem;

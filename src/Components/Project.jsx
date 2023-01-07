@@ -9,11 +9,7 @@ const Project = (props) => {
         <p className="project-text">{props.description}</p>
         <br />
         <div className="tech-div">
-          <ul className="list-inline">
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-          </ul>
+          <ul className="list-inline">{props.children}</ul>
         </div>
         <div className="btn-div">
           <button className="btn-1">
