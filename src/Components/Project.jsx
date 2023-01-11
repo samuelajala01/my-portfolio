@@ -11,13 +11,15 @@ const Project = (props) => {
         {/* <div className="tech-div">
           <ul className="list-inline">{props.children}</ul>
         </div> */}
-        <div className="btn-div">
-          <button className="btn-1">
-            <a href={props.live_link}>Live</a>
-          </button>
-          <button className="btn-2">
-            <a href={props.code_link}>Code</a>
-          </button>
+        <div className="project_btn_div">
+          <a href={props.live_link} className="project_btn_link">
+            {" "}
+            <button className="project_btn_1">Live</button>
+          </a>
+          <a href={props.code_link} className="project_btn_link">
+            {" "}
+            <button className="project_btn_2">Code</button>
+          </a>
         </div>
       </div>
     </div>
