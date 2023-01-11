@@ -11,7 +11,7 @@ const HomeSection = () => {
               I'm Samuel,
               <br />a <span class="techie">Techie</span>
             </h1>
-            <p>React x Node js Developer</p>
+            <p>React + Node js Developer</p>
             <div className="icons animate__animated animate__fadeInUp">
               <a href="https://github.com/samuelajala01/">
                 <i className="fab fa-github"></i>

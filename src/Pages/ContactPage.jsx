@@ -90,7 +90,9 @@ const ContactPage = () => {
                 Blog
                 <br />
                 <span>
-                  <a href="https://samuelajala01.hashnode.dev">My Blog</a>
+                  <a href="https://samuelajala01.hashnode.dev">
+                    samuelajala01.hashnode.dev
+                  </a>
                 </span>
               </p>
             </div>
