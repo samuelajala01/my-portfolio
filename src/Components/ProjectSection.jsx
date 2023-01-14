@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 
 const ProjectsSection = () => {
   console.log(window.location.pathname); // to get the current href
+
   return (
     <section id="projects">
       <h2>Some of my works</h2>
@@ -72,12 +73,12 @@ const ProjectsSection = () => {
         ></Project>
       </div>
 
-      <div className="more_projects_container">
+      {/* <div className="more_projects_container">
         <Link to="/projects">
           {" "}
           <button className="more-projects-btn">More Projects</button>
         </Link>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -234,8 +234,8 @@ h1 span {
 }
 
 .project-img {
-  /* margin: auto;
-  display: flex; */
+  margin: auto;
+  display: flex;
   width: 250px;
   height: 195px;
 }
