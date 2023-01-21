@@ -9,7 +9,7 @@ const HomeSection = () => {
             <h1 className=" h1 animate__animated animate__fadeInLeft">
               Hi, <br />
               I'm Samuel,
-              <br />a <span class="techie">Techie</span>
+              <br />a <span className="techie">Techie</span>
             </h1>
             <p>React + Node js Developer</p>
             <div className="icons animate__animated animate__fadeInUp">

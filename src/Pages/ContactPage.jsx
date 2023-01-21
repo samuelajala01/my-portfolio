@@ -29,7 +29,7 @@ const ContactPage = () => {
                   </label>
                 </div>
               </div>
-              <div class="input-group">
+              <div className="input-group">
                 <input type="text" id="head" name="name" required />
                 <label htmlFor="name">
                   <i className="fas fa-envelope-open-text"></i> Message Subject

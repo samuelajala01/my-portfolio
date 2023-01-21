@@ -27,6 +27,10 @@ body {
   scroll-behavior: smooth;
 }
 
+button{
+  border: unset;
+}
+
 nav {
   width: 100%;
   position: sticky;
@@ -119,6 +123,11 @@ h1 span {
   width: 20rem;
   justify-content: space-between;
   display: flex;
+}
+
+.fab:hover{
+ color: green;
+ transition: 1.2s;
 }
 
 .animate__animated.animate__fadeInUp {
@@ -228,11 +237,6 @@ h1 span {
   width: fit-content;
 }
 
-.img-div {
-  /* margin: auto;
-  justify-content: center; */
-}
-
 .project-img {
   margin: auto;
   display: flex;
@@ -281,12 +285,12 @@ h1 span {
 }
 
 
-.more_projects_container{
+.gh_link_wrapper{
   text-align: right;
   margin: 2rem 2rem 0 0;
 }
 
-.more-projects-btn{
+.gh-btn{
   padding: 0.5rem 1.5rem;
   background-color: green;
   font-size: 1.3rem;
@@ -294,10 +298,6 @@ h1 span {
   color: #fff;
   cursor: pointer;
 }
-
-/* .more-projects-btn:hover{
-
-} */
 
 #services {
   margin: auto;
@@ -613,7 +613,7 @@ footer p {
 
 @media screen and (max-width: 620px) {
   .service {
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-bottom: 1rem;
   }

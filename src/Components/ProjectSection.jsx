@@ -19,7 +19,7 @@ const ProjectsSection = () => {
           img_src={metabnb}
           description="A landing page of a metabnb site clone built during my HNG Internship"
           img_alt="Hero section Image of metabnb landing page clone"
-          live_link="https://metabnb-clone.netlify.app"
+          live_link="https://metabnb-copy.netlify.app"
           code_link="https://github.com/metabnb-clone"
           aos="fade-right"
         >
@@ -72,13 +72,15 @@ const ProjectsSection = () => {
           aos="fade-left"
         ></Project>
       </div>
-
-      {/* <div className="more_projects_container">
-        <Link to="/projects">
-          {" "}
-          <button className="more-projects-btn">More Projects</button>
-        </Link>
-      </div> */}
+      <div className="gh_link_wrapper">
+        <a
+          href="https://github.com/samuelajala01"
+          target="_blank"
+          className="github_link"
+        >
+          <button className="gh-btn">My Github</button>
+        </a>
+      </div>
     </section>
   );
 };
