@@ -533,7 +533,7 @@ footer p {
     height: 80%;
   }
   #home h1 {
-    font-size: min(60px);
+    font-size: 9vw;
   }
 
   .home-2 {
@@ -606,12 +606,20 @@ footer p {
   .menu-list a:hover {
     color: green;
   }
+ 
+  #home h1{
+    font-size: 11vw;
+  }
   .home-2 {
     display: none;
   }
 }
 
 @media screen and (max-width: 620px) {
+
+  #home h1{
+    font-size: 5rem;
+  }
   .service {
     width: 90%;
     margin: auto;
@@ -623,6 +631,9 @@ footer p {
 }
 
 @media screen and (max-width: 575px) {
+  #home h1{
+    font-size: 16vw;
+  }
   #about h2 {
     font-size: 8vw;
   }
