@@ -16,10 +16,10 @@ const NavBar = () => {
             <span className="line third"></span>
           </div>
         ) : (
-          <i
-            className="fa-regular fa-xmark nav-btn"
-            onClick={() => setIsOpen(!isOpen)}
-          ></i>
+          <div className="hamburger nav-btn" onClick={() => setIsOpen(!isOpen)}>
+            <span className="line cross-first"></span>
+            <span className="line cross-second"></span>
+          </div>
         )}
       </nav>
       {isOpen && (

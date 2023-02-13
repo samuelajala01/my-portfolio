@@ -79,7 +79,8 @@ nav {
 }
 
 .hamburger:hover > .line{
-  width: 36px; 
+  width: 36px;
+  transition-duration: 1s; 
 }
 
 .first {
@@ -92,6 +93,20 @@ nav {
 
 .third {
   width: 40%;
+}
+
+.cross-first{
+  transform: rotate(45deg);
+  position: relative;
+  top: 0.2rem;
+  left: 0.4rem;
+}
+
+.cross-second{
+  transform: rotate(135deg);
+  position: relative;
+  bottom: 1rem;
+  left: 0.5rem;
 }
 
 .line {
@@ -594,7 +609,7 @@ footer p {
 }
 
 @media screen and (max-width: 760px) {
-  .nav-btn,
+  /* .nav-btn, */
   .menu-remove-bar {
     display: block;
     width: fit-content;
