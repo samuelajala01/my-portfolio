@@ -10,12 +10,16 @@ const NavBar = () => {
       <nav>
         <img src={satlogo} className="logo" height="80" /> {/* </span> */}
         {!isOpen ? (
+          <div className="hamburger nav-btn" onClick={() => setIsOpen(!isOpen)}>
+            <span className="line first"></span>
+            <span className="line second"></span>
+            <span className="line third"></span>
+          </div>
+        ) : (
           <i
-            className="fas fa-bars nav-btn"
+            className="fa-regular fa-xmark nav-btn"
             onClick={() => setIsOpen(!isOpen)}
           ></i>
-        ) : (
-          <span onClick={() => setIsOpen(!isOpen)}>X</span>
         )}
       </nav>
       {isOpen && (
