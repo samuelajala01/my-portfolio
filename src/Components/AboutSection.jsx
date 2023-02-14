@@ -8,7 +8,8 @@ const AboutSection = () => {
             If you're looking for a frontend developer with less experience and
             more skills, I am the right person for you. I have worked with
             frontend languages and technologies for some time. My main goals are
-            to make your website look beautiful and easy to use.
+            to make your website look beautiful and easy to use. If you need a
+            website just contact me.
           </p>
         </div>
         <div className="info-text-2">
