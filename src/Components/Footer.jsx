@@ -4,6 +4,7 @@ const Footer = () => {
       <p>
         &copy; <span id="footer-year"></span> Samuel Ajala
       </p>
+      <p>site views: ___</p>
     </footer>
   );
 };
