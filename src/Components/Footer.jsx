@@ -23,7 +23,8 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        &copy; <span id="footer-year">2023 Samuel Ajala</span>
+        &copy;{" "}
+        <span id="footer-year">{new Date().getFullYear()} Samuel Ajala</span>
         <p className="visits">site views: {visits}</p>
       </p>
     </footer>
