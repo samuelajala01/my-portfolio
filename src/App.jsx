@@ -23,6 +23,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/services" element={<ServicesPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

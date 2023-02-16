@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <>
       <AboutSection />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

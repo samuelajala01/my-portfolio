@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <>
       <nav>
-        <img src={satlogo} className="logo" height="80" /> {/* </span> */}
+        <img src={satlogo} className="logo" height="80" />
         {!isOpen ? (
           <div className="hamburger nav-btn" onClick={() => setIsOpen(!isOpen)}>
             <span className="line first"></span>

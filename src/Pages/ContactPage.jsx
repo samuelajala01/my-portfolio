@@ -1,5 +1,4 @@
-import Footer from "../Components/Footer";
-import NavBar from "../Components/NavBar";
+// import Footer from "../Components/Footer";
 
 const ContactPage = () => {
   return (
@@ -99,7 +98,6 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 };
