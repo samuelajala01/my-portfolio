@@ -23,9 +23,9 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        &copy; <span id="footer-year"></span> Samuel Ajala
+        &copy; <span id="footer-year">2023 Samuel Ajala</span>
+        <p className="visits">site views: {visits}</p>
       </p>
-      <p>site views: {visits}</p>
     </footer>
   );
 };
