@@ -22,9 +22,8 @@ const ProjectsSection = () => {
           live_link="https://metabnb-copy.netlify.app"
           code_link="https://github.com/metabnb-clone"
           aos="fade-right"
-        >
-          <li>React</li>
-        </Project>
+          duration="2000"
+        ></Project>
         <Project
           title="Huddle clone"
           img_src={huddleclone}
@@ -33,6 +32,7 @@ const ProjectsSection = () => {
           live_link="https://samuelajala01.github.io/zuri_huddle_page/"
           code_link="https://github.com/samuelajala01/zuri_huddle_page"
           aos="fade-left"
+          duration="2000"
         />
         <Project
           title="Weather App"
@@ -43,6 +43,7 @@ const ProjectsSection = () => {
           live_link="https://xamy-weather-app.netlify.app/"
           code_link="https://github.com/samuelajala01/my-weather-app"
           aos="fade-right"
+          duration="2000"
         />
         <Project
           title="LoanCalc"
@@ -52,6 +53,7 @@ const ProjectsSection = () => {
           live_link="https://loan-calculator01.netlify.app/"
           code_link="https://github.com/samuelajala01/loango"
           aos="fade-left"
+          duration="2000"
         />
         <Project
           title="TodoListApp"
@@ -61,6 +63,7 @@ const ProjectsSection = () => {
           live_link="https://xamy-js-todo.netlify.app/"
           code_link="https://github.com/samuelajala01/JS-Todo-app"
           aos="fade-right"
+          duration="2000"
         />
         <Project
           title="Indecision"
@@ -70,6 +73,7 @@ const ProjectsSection = () => {
           live_link="https://indecision01.netlify.app/"
           code_link="https://github.com/samuelajala01/indecision-app"
           aos="fade-left"
+          duration="2000"
         ></Project>
       </div>
       <div className="gh_link_wrapper">
