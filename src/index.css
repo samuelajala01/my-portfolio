@@ -21,6 +21,9 @@ body {
 }
 
 body {
+  background-image: url('../src/assets/Images/animatedbackground.svg');
+  background-position: left;
+  background-attachment: fixed;
   background-color: black;
   color: white;
   overflow-x: hidden;
