@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import satlogo from "../assets/Images/SAT.png";
+import "../styles/Navbar.css";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
