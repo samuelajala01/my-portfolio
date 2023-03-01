@@ -1,10 +1,8 @@
-// import Footer from "../Components/Footer";
-
 const ContactPage = () => {
   return (
     <>
       <section id="contact">
-        <h4>Reach Out :</h4>
+        <h2>Reach Out</h2>
         <div className="contact-container">
           <div className="form-div">
             <h5>Leave a message:</h5>

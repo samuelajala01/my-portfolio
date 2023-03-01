@@ -165,25 +165,18 @@ h1 span {
 
 .info-img-div {
   padding: 1rem;
-  /* display: flex; */
   justify-content: center;
 }
-/* 
-.info-img {
-  width: 350px;
-  height: 450px;
-  border: 3px solid green;
-} */
 
 #projects {
   padding: 20px;
 }
 
-#projects h2 {
+#projects h2, #services h2, #contact h2 {
   text-align: center;
   font-family: "Caveat", cursive;
-  font-size: 50px;
-  margin-bottom: 3rem;
+  font-size: 3.1rem;
+  margin-bottom: 2.5rem;
 }
 
 .project {
@@ -265,11 +258,6 @@ h1 span {
   text-align: center;
 }
 
-#services h2 {
-  font-size: 4.5vw;
-  font-family: "Caveat", cursive;
-}
-
 .services-container {
   display: flex;
   flex-wrap: wrap;
@@ -322,10 +310,8 @@ h1 span {
   height: fit-content;
 }
 
-#contact h4 {
-  text-align: center;
-  font-size: 4vw;
-  font-family: "Caveat", cursive;
+#contact h2{
+  margin-bottom: unset;
 }
 
 .contact-container {
@@ -412,18 +398,18 @@ textarea:valid ~ label {
   border: 1px solid #fff;
   width: 100%;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 #submit-btn:hover {
   background-color: rgb(190, 184, 184);
   transition-duration: 1s;
-  color: black;
-  font-weight: 700;
+  color: green;
 }
 
 .other-div {
   flex: 1;
-  background: url("../src/assets/Images/contact-bg.jpg");
+  background: rgba(56, 55, 55, 0.493);
   background-size: cover;
   border-radius: 3em;
 }

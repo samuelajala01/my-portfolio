@@ -5,11 +5,11 @@ const AboutSection = () => {
       <div className="info">
         <div className="info-text">
           <p>
-            If you're looking for a frontend developer with less experience and
-            more skills, I am the right person for you. I have worked with
-            frontend languages and technologies for some time. My main goals are
-            to make your website look beautiful and easy to use. If you need a
-            website just contact me.
+            If you're looking for a frontend developer to convert designs to
+            code, you've found him. I have worked with frontend languages and
+            technologies for some time. My main goals are making your website
+            look beautiful and easy to use. If you need a website just contact
+            me.
           </p>
         </div>
         <div className="info-text-2">
@@ -47,11 +47,6 @@ const AboutSection = () => {
                 <span>Python</span>
               </div>
             </div>
-            {/* <img
-            src="../assets/Images/samuel-ajala.jpeg"
-            className="info-img"
-            alt="Image of Samuel Ajala"
-          /> */}
           </div>
         </div>
       </div>

@@ -13,9 +13,7 @@ const Project = (props) => {
         <p className="project-title">{props.title}</p>
         <p className="project-text">{props.description}</p>
         <br />
-        {/* <div className="tech-div">
-          <ul className="list-inline">{props.children}</ul>
-        </div> */}
+
         <div className="project_btn_div">
           <a href={props.live_link} className="project_btn_link">
             {" "}
