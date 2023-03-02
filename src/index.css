@@ -22,13 +22,13 @@ body {
 
 body {
   background-image: url('../src/assets/Images/animatedbackground.svg');
-  background-position: left;
   background-attachment: fixed;
   background-color: black;
+  background-position: right;
   color: white;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background-size: 100%;
+  background-size: cover;
 }
 
 button{

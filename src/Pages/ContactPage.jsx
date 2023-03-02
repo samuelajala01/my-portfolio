@@ -12,7 +12,13 @@ const ContactPage = () => {
             >
               <div className="row">
                 <div className="input-group">
-                  <input type="text" id="name" name="name" required />
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    minLength="2"
+                    required
+                  />
                   <label htmlFor="name">
                     {" "}
                     <i className="fas fa-user"></i> Your Name
