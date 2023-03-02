@@ -28,6 +28,7 @@ body {
   color: white;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-size: 100%;
 }
 
 button{
