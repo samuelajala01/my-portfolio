@@ -18,8 +18,8 @@ nav {
     display: block;
     text-align: center;
     height: 100vh;
-    /* background-color: black; */
-    background: url('../src/assets/Images/animatedbackground.svg');
+    background-color: black;
+    /* background: url('../src/assets/Images/animatedbackground.svg'); */
     width: 100%;
     position: fixed;
     max-width: 100vw;
@@ -28,7 +28,7 @@ nav {
   nav{
     background: transparent;
   }
-  
+
   .nav_list_container{
     list-style-type: none;
     height: fit-content;
