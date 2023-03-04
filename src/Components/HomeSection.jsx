@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import bitmoji from "../assets/Images/my-bitmoji.png";
+import "../styles/HomeSection.css";
 
 const HomeSection = () => {
   const [words, setWords] = useState([
@@ -30,7 +31,7 @@ const HomeSection = () => {
               I'm Samuel,
               <br />a <span className="techie">Techie</span>
             </h1>
-            <p>{currentWord}</p>
+            <p className="home_title">{currentWord}</p>
             <div className="icons animate__animated animate__fadeInUp">
               <a href="https://github.com/samuelajala01/">
                 <i className="fab fa-github"></i>

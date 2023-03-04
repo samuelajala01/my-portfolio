@@ -1,3 +1,45 @@
+import "../styles/AboutSection.css";
+import TagCloud from "TagCloud";
+import { useEffect } from "react";
+
+const TextSphere = () => {
+  useEffect(() => {
+    return () => {
+      const container = ".tagcloud";
+      const texts = [
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "C",
+        "C++",
+        "React",
+        "Python",
+        "Java",
+        "git",
+        "django",
+        "Node.js",
+        "OpenCV",
+      ];
+
+      const options = {
+        radius: 250,
+        maxSpeed: "normal",
+        initSpeed: "normal",
+        keep: true,
+      };
+
+      TagCloud(container, texts, options);
+    };
+  });
+  return (
+    <>
+      <div className="text-sphere">
+        <span className="tagcloud"></span>
+      </div>
+    </>
+  );
+};
+
 const AboutSection = () => {
   return (
     <section id="about">
@@ -13,41 +55,7 @@ const AboutSection = () => {
           </p>
         </div>
         <div className="info-text-2">
-          <div className="info-img-div">
-            <h3>Skills and Technologies</h3>
-            <div className="skills-list">
-              <div>
-                <i className="fab fa-html5"></i>
-                <br />
-                <span>HTML5</span>{" "}
-              </div>
-              <div>
-                <i className="fab fa-css3"></i>
-                <br />
-                <span>CSS3</span>
-              </div>
-              <div>
-                <i className="fab fa-js"></i>
-                <br />
-                <span>JavaScript</span>
-              </div>
-              <div>
-                <i className="fab fa-node-js"></i>
-                <br />
-                <span>Node.js</span>
-              </div>
-              <div>
-                <i className="fab fa-php"></i>
-                <br />
-                <span>Php</span>
-              </div>
-              <div>
-                <i className="fab fa-python"></i>
-                <br />
-                <span>Python</span>
-              </div>
-            </div>
-          </div>
+          <TextSphere />
         </div>
       </div>
     </section>

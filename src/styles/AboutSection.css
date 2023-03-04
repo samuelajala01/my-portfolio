@@ -1,0 +1,42 @@
+
+#about {
+    margin-bottom: 3rem;
+  }
+  
+  #about h2 {
+    font-family: "Caveat", cursive;
+    font-size: 50px;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 98%;
+  }
+  
+  .info-text {
+    padding: 1rem;
+  }
+  
+  .info-text > p {
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    margin-bottom: 3rem;
+  }
+  
+  #about h3 {
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 1.8rem;
+  }
+  
+  .info-img-div {
+    padding: 1rem;
+    justify-content: center;
+  }
+  
