@@ -7,7 +7,7 @@ import metabnb from "../assets/Images/metabnb_clone_site.png";
 import huddleclone from "../assets/Images/hudle_clone_site.png";
 
 const ProjectsSection = () => {
-  console.log(window.location.pathname); // to get the current href
+  // console.log(window.location.pathname); // to get the current href
 
   return (
     <section id="projects">
