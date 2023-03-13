@@ -10,21 +10,18 @@ const TextSphere = () => {
         "JavaScript",
         "CSS",
         "HTML",
-        "C",
-        "C++",
+        "Github",
         "React",
         "Python",
-        "Java",
         "git",
-        "django",
+        "Tailwind",
         "Node.js",
-        "OpenCV",
       ];
 
       const options = {
         radius: 250,
-        maxSpeed: "normal",
-        initSpeed: "normal",
+        maxSpeed: "fast",
+        initSpeed: "fast",
         keep: true,
       };
 

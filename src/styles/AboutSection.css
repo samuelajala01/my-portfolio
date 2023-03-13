@@ -39,4 +39,15 @@
     padding: 1rem;
     justify-content: center;
   }
+.text-sphere{
+  display: flex;
+  justify-content: center;
   
+}
+
+  
+.tagcloud{
+  font-size: 1.2rem;
+  background: rgba(56, 55, 55, 0.293);
+  border-radius: 50%;
+}
