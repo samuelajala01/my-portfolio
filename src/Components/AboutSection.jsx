@@ -15,6 +15,7 @@ const TextSphere = () => {
         "React",
         "Python",
         "figma",
+        "SEO",
         "git",
         "Tailwind",
         "Node.js",
@@ -29,7 +30,7 @@ const TextSphere = () => {
 
       TagCloud(container, texts, options);
     };
-  });
+  }, [1]);
   return (
     <>
       <div className="text-sphere">
@@ -38,38 +39,6 @@ const TextSphere = () => {
     </>
   );
 };
-// const TextSphere = () => {
-//       const container = ".tagcloud";
-//       const texts = [
-//         "JavaScript",
-//         "CSS",
-//         "HTML",
-//         "Github",
-//         "React",
-//         "Python",
-//         "figma",
-//         "git",
-//         "Tailwind",
-//         "Node.js",
-//       ];
-
-//       const options = {
-//         radius: 250,
-//         maxSpeed: "fast",
-//         initSpeed: "fast",
-//         keep: true,
-//       };
-
-//       TagCloud(container, texts, options);
-
-//   return (
-//     <>
-//       <div className="text-sphere">
-//         <span className="tagcloud"></span>
-//       </div>
-//     </>
-//   );
-// };
 
 const AboutSection = () => {
   const location = useLocation();
