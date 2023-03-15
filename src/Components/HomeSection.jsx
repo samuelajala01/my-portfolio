@@ -6,6 +6,7 @@ const HomeSection = () => {
   const [words, setWords] = useState([
     "Frontend Developer",
     "Backend Developer",
+    "Technical Writer",
   ]);
   const [currentWord, setCurrentWord] = useState("");
 
