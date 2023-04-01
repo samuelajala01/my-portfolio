@@ -23,7 +23,7 @@
   }
   
   .info-text > p {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     text-align: center;
     font-family: "Caveat", cursive;
     margin-bottom: 3rem;
@@ -47,6 +47,20 @@
 
   
 .tagcloud{
+  font-size: 1.2rem;
+  background: rgba(56, 55, 55, 0.293);
+  border-radius: 50%;
+}
+
+
+.text-sphere2{
+  display: flex;
+  justify-content: center;
+  
+}
+
+  
+.tagcloud2{
   font-size: 1.2rem;
   background: rgba(56, 55, 55, 0.293);
   border-radius: 50%;
