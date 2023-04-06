@@ -26,12 +26,19 @@ const HomeSection = () => {
       <section id="home">
         <div className="main">
           <div className="home-1">
-            <h1 className=" h1 animate__animated animate__fadeInLeft">
-              Hi, <br />
-              I'm Samuel,
-              <br />a <span className="techie">Techie</span>
-            </h1>
+            <div className="hero_head_container animate__animated animate__fadeInLeft">
+              <p className="my_name_is"> Hi, my name is</p>
+              <h1 className="name">Samuel Ajala</h1>
+              <span className="techie">Techie</span>
+            </div>
             <p className="home_title">{currentWord}</p>
+
+            {/* <button className="blog_btn"> */}
+            <a href="" className="blog_btn_link">
+              Visit my blog
+            </a>
+            {/* </button> */}
+
             <div className="icons animate__animated animate__fadeInUp">
               <a href="https://github.com/samuelajala01/">
                 <i className="fab fa-github"></i>
@@ -48,7 +55,11 @@ const HomeSection = () => {
             </div>
           </div>
           <div className="home-2">
-            <img src={bitmoji} alt="Image of Samuel Ajala" />
+            <img
+              src={bitmoji}
+              className="bitmoji"
+              alt="Image of Samuel Ajala"
+            />
           </div>
         </div>
       </section>

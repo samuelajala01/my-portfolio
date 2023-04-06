@@ -1,3 +1,7 @@
+:root {
+  --theme-blue: rgba(4, 86, 194, 0.877);
+}
+
 
 * {
   margin: 0;
@@ -19,14 +23,10 @@ body {
 }
 
 body {
-  background-image: url("../src/assets/Images/animatedbackground.svg");
-  background-attachment: fixed;
-  background-color: black;
-  background-position: right;
+  background-color: #000;
   color: white;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background-size: cover;
 }
 
 button {
@@ -34,22 +34,21 @@ button {
 }
 
 #projects {
-  padding: 20px;
+  margin: 4.5rem 3vw;
 }
 
 #projects h2,
 #services h2,
 #contact h2 {
   text-align: center;
-  font-family: "Caveat", cursive;
   font-size: 3.1rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 4.5rem;
 }
 
 .project {
-  border: 4px solid green;
+  border: 4px solid var(--theme-blue);
   height: fit-content;
-  padding: 1.5rem 2rem 1.5rem;
+  padding: 2.5rem 2rem 2.5rem;
   border-radius: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -59,8 +58,8 @@ button {
 .project-img {
   margin: auto;
   display: flex;
-  width: 250px;
-  height: 195px;
+  width: 220px;
+  height: 165px;
 }
 
 .projects-container {
@@ -99,7 +98,7 @@ button {
 }
 
 .project_btn_link button:hover {
-  background-color: green;
+  background-color: var(--theme-blue);
   color: #fff;
 }
 
@@ -110,7 +109,7 @@ button {
 
 .gh-btn {
   padding: 0.5rem 1.5rem;
-  background-color: green;
+  background-color: var(--theme-blue);
   font-size: 1.3rem;
   border-radius: 10px;
   color: #fff;
@@ -119,6 +118,7 @@ button {
 
 #services {
   margin: auto;
+  margin-bottom: 4.5rem;
   height: fit-content;
   text-align: center;
 }
@@ -135,7 +135,7 @@ button {
 
 .service {
   border-radius: 30px;
-  background-color: green;
+  background-color: var(--theme-blue);
   width: 350px;
   height: fit-content;
   min-height: 200px;
@@ -176,14 +176,15 @@ button {
 }
 
 #contact h2 {
-  margin-bottom: unset;
+  margin-bottom: 4.5rem;
 }
 
 .contact-container {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 2rem;
+  /* padding: 2rem; */
+  margin: 0 4rem;
   justify-content: space-between;
 }
 .form-div {
@@ -268,49 +269,12 @@ textarea:valid ~ label {
 
 #submit-btn:hover {
   transition-duration: 1s;
-  background-color: green;
-  border-color: green;
-}
-
-.other-div {
-  flex: 1;
-  background: rgba(56, 55, 55, 0.493);
-  background-size: cover;
-  border-radius: 3em;
-}
-
-.other-div h5 {
-  font-family: "Caveat", cursive;
-  margin-top: 1.5rem;
-  text-align: center;
-  font-size: 2.5rem;
-}
-
-.other-div div {
-  display: flex;
-  width: fit-content;
-  position: relative;
-  top: 3rem;
-  left: 6rem;
-}
-
-.other-div p {
-  padding: 1rem;
-  font-size: 1.2rem;
-}
-
-.other-div span {
-  opacity: 0.6;
-}
-
-.other-div i {
-  font-size: 2.3rem;
-  height: fit-content;
-  margin: auto;
+  background-color: var(--theme-blue);
+  border-color: var(--theme-blue);
 }
 
 footer {
-  background-color: green;
+  background-color: var(--theme-blue);
   padding: 0.6rem 0;
   text-align: center;
   width: 100%;

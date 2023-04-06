@@ -1,5 +1,7 @@
+
 #home {
     min-height: 100vh;
+    /* padding: 0 4rem; */
   }
   
   .main {
@@ -12,28 +14,46 @@
     width: fit-content;
     height: fit-content;
     position: relative;
-    left: 5vw;
+    left: 6vw;
   }
   
+.my_name_is{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
   .home-1 h1 {
     font-size: 90px;
     white-space: nowrap;
   }
   
-  h1 span {
-    color: green;
-    font-size: 70px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+  .name{
+    opacity: 0.95;
+  }
+
+  .techie {
+    color: var(--theme-blue);
+    font-size: 5rem;
   }
   
-  .home-1 p {
+  .home_title {
     width: fit-content;
     font-size: clamp(1em, 4vw, 25px);
-    opacity: 0.2;
-    padding: 1rem 0 4rem 0;
+    opacity: 0.4;
+    margin: 1rem 0 2rem 0;
     white-space: nowrap;
   }
   
+.blog_btn_link{
+/* padding: 1rem; */
+padding: 0.7rem 1.2rem;
+display: inline-block;
+background-color: var(--theme-blue);
+margin-bottom: 2rem;
+border-radius: .5rem;
+}
+
   #home img {
     position: relative;
     top: 1rem;
@@ -68,3 +88,7 @@
     right: 7vw;
   }
   
+  .bitmoji{
+    border: .3rem dashed var(--theme-blue);
+    border-radius: .5rem;
+  }

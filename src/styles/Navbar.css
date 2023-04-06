@@ -6,6 +6,7 @@ nav {
     padding: 0.1rem 2.6vw;
     justify-content: space-between;
     z-index: 999;
+    background-color: #000;
   }
   
   .logo:hover{
@@ -37,7 +38,7 @@ nav {
     color: #fff;
     font-size: 1.4rem;
     padding: 1.5rem 0;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid var(--theme-blue);
   }
   
   .nav_container a{
@@ -46,7 +47,7 @@ nav {
   
   .nav_list_container a:hover{
     transition-duration: 1s;
-     color: green;
+     color: var(--theme-blue);
   
   }
   
