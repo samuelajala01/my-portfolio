@@ -7,7 +7,7 @@ const ContactPage = () => {
           <div className="form-div">
             <h5>Leave a message:</h5>
             <form
-              action="https://formsubmit.co/samuelajala01@gmail.com"
+              action="https://formsubmit.co/d7fcbe04758434a6608acbab04f926d1"
               method="POST"
             >
               <div className="row">
