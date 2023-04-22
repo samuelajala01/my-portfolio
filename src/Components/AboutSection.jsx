@@ -1,4 +1,7 @@
 import "../styles/AboutSection.css";
+import TypeScript from "../assets/Images/tools svg/Typescript";
+import Figma from "../assets/Images/tools svg/figma";
+import Nodejs from "../assets/Images/tools svg/Node";
 
 const AboutSection = () => {
   return (
@@ -17,7 +20,12 @@ const AboutSection = () => {
             and beautiful.
           </p>
         </div>
-        <div className="info-text-2"></div>
+        <div className="info-text-2">
+          <h2>Tech stack</h2>
+          <TypeScript />
+          <Figma />
+          <Nodejs />
+        </div>
       </div>
     </section>
   );

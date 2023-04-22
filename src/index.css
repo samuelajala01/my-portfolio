@@ -21,8 +21,6 @@
   background-color: #000;
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -51,6 +49,11 @@ body {
 
 button {
   border: unset;
+}
+
+svg{
+  background-color: #fff;
+  height: 2rem;
 }
 
 #projects {
@@ -219,7 +222,7 @@ form {
   margin: auto;
   margin-top: 1.5rem;
   margin-bottom: 3rem;
-  max-width: 100%;
+ 
 }
 
 .form-div h5 {
@@ -382,24 +385,9 @@ footer p {
   }
 }
 
-
-/* @media screen and (max-width: 620px) {
-  #home h1 {
-    font-size: 5rem;
-  }
-  .service {
-    width: 90%;
-    margin: auto;
-    margin-bottom: 1rem;
-  }
-  .service button {
-    margin-bottom: 1rem;
-  }
-} */
-
 @media screen and (max-width: 575px) {
   #home h1 {
-    font-size: 16vw;
+    font-size: 15vw;
   }
   #about h2 {
     font-size: 8vw;
@@ -428,6 +416,10 @@ footer p {
 @media screen and (max-width: 520px) {
   .projects-container{
     padding: 0 4vw; 
+  }
+
+  .contact-container{
+    margin: 0 2rem;
   }
 }
 
