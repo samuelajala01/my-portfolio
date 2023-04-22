@@ -1,5 +1,4 @@
 import "../styles/AboutSection.css";
-import TextSphere from "./TextSphere";
 
 const AboutSection = () => {
   return (
@@ -18,9 +17,7 @@ const AboutSection = () => {
             and beautiful.
           </p>
         </div>
-        <div className="info-text-2">
-          <TextSphere />
-        </div>
+        <div className="info-text-2"></div>
       </div>
     </section>
   );

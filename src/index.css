@@ -215,7 +215,7 @@ button {
 }
 
 form {
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 1.5rem;
   margin-bottom: 3rem;
@@ -312,10 +312,11 @@ footer p {
 
 /* ---------------------------------------MEDIA QUERY SECTION ------------------------------------- */
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1045px) {
   .projects-container {
     display: block;
     row-gap: 1rem;
+    padding: 0 5rem;
   }
   .project {
     width: 100%;
@@ -375,7 +376,14 @@ footer p {
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 730px) {
+  .project{
+    display: block;
+  }
+}
+
+
+/* @media screen and (max-width: 620px) {
   #home h1 {
     font-size: 5rem;
   }
@@ -387,7 +395,7 @@ footer p {
   .service button {
     margin-bottom: 1rem;
   }
-}
+} */
 
 @media screen and (max-width: 575px) {
   #home h1 {
@@ -414,6 +422,12 @@ footer p {
   }
   .row {
     display: block;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .projects-container{
+    padding: 0 4vw; 
   }
 }
 
