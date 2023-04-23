@@ -2,7 +2,7 @@ const ContactPage = () => {
   return (
     <>
       <section id="contact">
-        <h2>Reach Out</h2>
+        <h2>Get in touch</h2>
         <div className="contact-container">
           <div className="form-div">
             <h5>Leave a message:</h5>

@@ -29,7 +29,7 @@ const HomeSection = () => {
             <div className="hero_head_container animate__animated animate__fadeInLeft">
               <p className="my_name_is"> Hi, my name is</p>
               <h1 className="name">Samuel Ajala</h1>
-              <span className="techie">Techie</span>
+              <span className="techie">Techie.</span>
             </div>
             <p className="home_title">{currentWord}</p>
 

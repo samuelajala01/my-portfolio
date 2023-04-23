@@ -41,11 +41,7 @@ const NavBar = () => {
                 Projects
               </Link>
             </li>
-            <li>
-              <Link to="/services" onClick={() => setIsOpen(!isOpen)}>
-                Services
-              </Link>
-            </li>
+
             <li>
               <Link to="/contact" onClick={() => setIsOpen(!isOpen)}>
                 Contact

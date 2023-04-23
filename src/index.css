@@ -292,7 +292,6 @@ textarea:valid ~ label {
 
 #submit-btn:hover {
   transition-duration: 1s;
-  background-color: var(--theme-blue);
   border-color: var(--theme-blue);
 }
 
