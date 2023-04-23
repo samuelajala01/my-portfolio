@@ -35,7 +35,7 @@ const HomeSection = () => {
 
             {/* <button className="blog_btn"> */}
             <a href="" className="blog_btn_link">
-              Visit my blog
+              Visit my blog!
             </a>
             {/* </button> */}
 

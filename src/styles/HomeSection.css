@@ -14,7 +14,7 @@
     width: fit-content;
     height: fit-content;
     position: relative;
-    left: 6vw;
+    left: 8vw;
   }
   
 .my_name_is{
@@ -49,9 +49,10 @@
 /* padding: 1rem; */
 padding: 0.7rem 1.2rem;
 display: inline-block;
-background-color: var(--theme-blue);
+border: 2px solid var(--theme-blue);
+color: var(--theme-blue);
 margin-bottom: 2rem;
-border-radius: .5rem;
+border-radius: .3rem;
 }
 
   #home img {
