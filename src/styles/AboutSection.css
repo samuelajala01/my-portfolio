@@ -5,7 +5,6 @@
   }
   
   #about h2 {
-    font-family: "Caveat", cursive;
     font-size: 50px;
     text-align: center;
     white-space: nowrap;
@@ -55,8 +54,3 @@
 }
 
   
-.tagcloud2{
-  font-size: 1.2rem;
-  background: rgba(56, 55, 55, 0.293);
-  border-radius: 50%;
-}

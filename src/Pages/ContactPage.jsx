@@ -2,7 +2,7 @@ const ContactPage = () => {
   return (
     <>
       <section id="contact">
-        <h2>Reach Out</h2>
+        <h2>Get in touch</h2>
         <div className="contact-container">
           <div className="form-div">
             <h5>Leave a message:</h5>
@@ -55,10 +55,11 @@ const ContactPage = () => {
                   <i className="fas fa-comments"></i> Your Message
                 </label>
               </div>
+              <input type="hidden" name="_captcha" value="false" />
               <input
                 type="hidden"
                 name="_next"
-                value="https://samuelajala.netlify.app/form-response.html"
+                value="https://samuelajala.vercel.app/response"
               />
               <button id="submit-btn" type="submit">
                 SEND <i className="fas fa-paper-plane"></i>
