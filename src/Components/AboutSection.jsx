@@ -1,6 +1,6 @@
 import "../styles/AboutSection.css";
 import TypeScript from "../assets/Images/tools svg/Typescript";
-import Figma from "../assets/Images/tools svg/figma";
+import Figma from "../assets/Images/tools svg/Figma";
 import Nodejs from "../assets/Images/tools svg/Node";
 
 const AboutSection = () => {
